@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header_wrap.css">
+    <link rel="stylesheet" href="css/nav_wrap.css">
+    <link rel="stylesheet" href="css/slider_wrap.css">
+    <link rel="stylesheet" href="css/main_wrap.css">
+    <link rel="stylesheet" href="css/footer_wrap.css">
+    <link rel="stylesheet" href="css/bom_wrap.css">
+    <script src="jquery-3.2.1.js"></script>
+    <!--<script src="jquery.adaptive-backgrounds.js"></script>-->
+    <script src="slider_wrap.js"></script>
+    <script src="slider_right_wrap.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header_wrap">
+        <div class="head clear">
+            <div class="h_logo">
+                <a href="javascript:;" class="logo"><img src="imgs/logo.png" alt="5Sing原创基地"></a>
+            </div>
+            <div class="h_search">
+                <div class="search">
+                    <input type="text" placeholder="歌曲/歌单/会员" class="search_key" id="s_key">
+                    <a href="javascript:;" class="search_btn"></a>
+                </div>
+            </div>
+            <div class="h_right">
+                <ul class="login">
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">注册</a></li>
+                </ul>
+                <ul class="add">
+                    <li class="upload1">
+                        <a href="#"><i class="upload"></i>上传</a>
+                        <ul class="upload_box">
+                            <li><a href="#">上传原创</a></li>
+                            <li><a href="#">上传翻唱</a></li>
+                            <li><a href="#">上传伴奏</a></li>
+                            <li><a href="#">歌曲管理</a></li>
+                        </ul>
+                    </li>
+                    <li class="app1">
+                        <a href="#"><i class="app"></i>APP</a>
+                        <ul class="app_box">
+                            <li><img src="imgs/5singcode.png"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="nav_wrap">
+        <div class="nav">
+            <ul class="clear">
+                <li><a href="#" class="cur">首页</a></li>
+                <li><a href="#">原创</a></li>
+                <li><a href="#">翻唱</a></li>
+                <li><a href="#">伴奏</a></li>
+                <li><a href="#">榜单</a></li>
+                <li><a href="#">歌单</a></li>
+                <li class="bar">|</li>
+                <li><a href="#">音乐人</a></li>
+                <li><a href="#">活动</a></li>
+                <li><a href="#">圈子</a></li>
+                <li><a href="#">音乐现场</a></li>
+                <li><a href="#">众筹</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="slider_wrap">
+        <div class="slider">
+            <div class="bannerImg">
+                <div class="banner_list" style="background: url('imgs/01.jpg') top center no-repeat"></div>
+                <div class="banner_list" style="background: url('imgs/02.jpg') top center no-repeat"></div>
+                <div class="banner_list" style="background: url('imgs/03.jpg') top center no-repeat"></div>
+                <div class="banner_list" style="background: url('imgs/04.jpg') top center no-repeat"></div>
+                <div class="banner_list" style="background: url('imgs/05.jpg') top center no-repeat"></div>
+                <div class="banner_list" style="background: url('imgs/06.jpg') top center no-repeat"></div>
+                <div class="banner_list" style="background: url('imgs/07.jpg') top center no-repeat"></div>
+                <div class="banner_list" style="background: url('imgs/08.jpg') top center no-repeat"></div>
+            </div>
+            <div class="sliderIndex">
+                <span class="on" index="1"></span>
+                <span index="2"></span>
+                <span index="3"></span>
+                <span index="4"></span>
+                <span index="5"></span>
+                <span index="6"></span>
+                <span index="7"></span>
+                <span index="8"></span>
+            </div>
+            <a href="javascript:;" class="prev arrow"> &lt; </a>
+            <a href="javascript:;" class="next arrow"> &gt; </a>
+        </div>
+
+    </div>
+    <div class="main_wrap">
+        <div class="main_top_wrap clear">
+            <div class="top_left_wrap">
+                <div class="left_up_wrap">
+                    <div class="hd clear">
+                        分类推荐
+                        <div class="content">
+                            <a href="#" class="curr">编辑推荐</a>
+                            <span>|</span>
+                            <a href="#">古风</a>
+                            <span>|</span>
+                            <a href="#">流行</a>
+                            <span>|</span>
+                            <a href="#">民谣</a>
+                            <span>|</span>
+                            <a href="#">摇滚</a>
+                            <span>|</span>
+                            <a href="#">动漫游戏</a>
+                            <span>|</span>
+                            <a href="#">民族&美声</a>
+                        </div>
+                        <a href="#" class="more"> >>更多</a>
+                        <i class="xia"></i>
+                    </div>
+                    <div class="bd clear">
+                        <div class="rec_yc animator">
+                            <div class="bar"></div>
+                            <div class="title">
+                                <i></i>
+                                原创推荐
+                                <div class="control">
+                                    <a href="#" class="change">
+                                        <i></i>下一批
+                                    </a>
+                                    <a href="#" class="allPlay">
+                                        <i></i>全部播放
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ct">
+                                <div class="item on">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">【原创】木梳记</a>
+                                        <a href="javascript:;" class="singer">只有影子</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc2.jpg" alt="">
+                                            <p>古风</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">【原创】木梳记</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">只有影子</a>
+                                            </p>
+                                            <p class="info">高二的语文课上，偷偷刷QQ空间，看见羊生新发的词，于是在课上写完了它。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">梦</a>
+                                        <a href="javascript:;" class="singer">王博文</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc1.png" alt="">
+                                            <p>流行</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">梦</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">王博文</a>
+                                            </p>
+                                            <p class="info"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">阿片猫</a>
+                                        <a href="javascript:;" class="singer">曾楠楠楠楠</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc3.jpg" alt="">
+                                            <p>民谣</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">阿片猫</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">曾楠楠楠楠</a>
+                                            </p>
+                                            <p class="info"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">谓风【双笙&流仙】</a>
+                                        <a href="javascript:;" class="singer">willen(王玉龙)</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc4.jpg" alt="">
+                                            <p>R&B</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">谓风【双笙&流仙】</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">willen（王玉龙）</a>
+                                            </p>
+                                            <p class="info"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">学一学鸽子</a>
+                                        <a href="javascript:;" class="singer">陈霄_62783140</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc5.jpg" alt="">
+                                            <p>流行</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">学一学鸽子</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">陈霄_62783140</a>
+                                            </p>
+                                            <p class="info">话剧《学一学鸽子》主题曲</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">放学后</a>
+                                        <a href="javascript:;" class="singer">成磊_62272191</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc6.jpg" alt="">
+                                            <p>流行</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">放学后</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">成磊_62272191</a>
+                                            </p>
+                                            <p class="info">小吃摊旁，已经排起了长长的队伍。
+                                                成群结队的出笼小鸟们，伴着嘴里轻哼的儿歌，脚步时而轻轻地掂着，时而欢快地跳着，不顾形象地释放热量。
+                                                当然也有低头并肩，到了路口还不愿告别的青梅与竹马。每每回头走过那段路，总使人回归了天真和懵懂。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">鲤</a>
+                                        <a href="javascript:;" class="singer">千水凝蓝音乐工作团队</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc7.jpg" alt="">
+                                            <p>古风</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">鲤</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">千水凝蓝音乐工作团队</a>
+                                            </p>
+                                            <p class="info"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">不如笑归去(演唱：周传雄)</a>
+                                        <a href="javascript:;" class="singer">陆菱纱</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc8.jpg" alt="">
+                                            <p>影视</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">不如笑归去(演唱：周传雄)</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">陆菱纱</a>
+                                            </p>
+                                            <p class="info">5SING这边存个档吧？
+
+                                                电视剧《醉玲珑》的插曲，
+                                                第一次参与这类歌曲的创作，非常开心。
+                                                虽然好像……依然没有写得很好。
+
+                                                感谢胜屿大大带我飞！
+                                                小刚老师唱得太好啦~简直想都不敢想！
+                                                也希望大家多多支持《醉玲珑》。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">离岸</a>
+                                        <a href="javascript:;" class="singer">威尔先生Gabin</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc9.jpg" alt="">
+                                            <p>流行</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">离岸</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">威尔先生Gabin</a>
+                                            </p>
+                                            <p class="info"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">【易世樊花】笠泽之畔</a>
+                                        <a href="javascript:;" class="singer">-易言-</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc10.png" alt="">
+                                            <p>古风</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">【易世樊花】笠泽之畔</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">-易言-</a>
+                                            </p>
+                                            <p class="info"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rec_fc animator">
+                            <div class="title">
+                                <i></i>
+                                翻唱推荐
+                                <div class="control">
+                                    <a href="#" class="change">
+                                        <i></i>下一批
+                                    </a>
+                                    <a href="#" class="allPlay">
+                                        <i></i>全部播放
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ct">
+                                <div class="item on">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">【爱系列22】‖她‖by：枕然</a>
+                                        <a href="javascript:;" class="singer">付遮书</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc11.jpg" alt="">
+                                            <p>流行</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">【爱系列22】‖她‖by：枕然</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">付遮书</a>
+                                            </p>
+                                            <p class="info">这是一首从头至尾都透露着一股俗气的词，但生活本来就是俗事，所以底气还挺足的。枕然同学（忒别扭）倒是唱出了的不食烟火的味道，果然是仙女！
+                                                其实现在真的不知道要怎么写创灵了，也逐渐迷茫于该怎样写词，才能做到所谓的“不忘初心”。依旧顺其自然吧，希望已经开始麻木却还未完全麻木的自己，至少能做自己。
+
+                                                【写歌也好，人生也罢，无非都是与悲喜应酬。】
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">【日翻圈老前辈15人大合唱】Rainbow - ASL2011</a>
+                                        <a href="javascript:;" class="singer">Jalam</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc12.jpg" alt="">
+                                            <p>对唱/合唱</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">【日翻圈老前辈15人大合唱】Rainbow - ASL2011</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">Jalam</a>
+                                            </p>
+                                            <p class="info">日翻圈老前辈大合唱！！！！值得纪念的一次合唱！！！
+                                                这应该是我参加的ASL与JAM合唱里完成度最高的一首=v=
+
+                                                按出场顺：yoji，绯川陵彦，祈Inory，碇哀，Amuro，水一，清音，Jalam，水缘无忆，刺香，吾恩，HYH，hopechong，流月，ChrisFox</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">千年风雅</a>
+                                        <a href="javascript:;" class="singer">Ｗ.Ｋ.</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc13.jpg" alt="">
+                                            <p>流行</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">千年风雅</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">Ｗ.Ｋ.</a>
+                                            </p>
+                                            <p class="info">作曲：坂本昌之  填词：张艺伟
+                                                编曲：于韵非
+                                                原曲陶笛演奏：周子雷</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">Innocence</a>
+                                        <a href="javascript:;" class="singer">Caroline_Sue</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc14.jpg" alt="">
+                                            <p>流行</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">Innocence</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">Caroline_Sue</a>
+                                            </p>
+                                            <p class="info">
+                                                婚礼上放的第二弹歌曲《Innocence》
+
+                                                这首歌对于我的意义很大 可以说整个青春期的各种事件都伴随着这首歌发生着
+
+                                                亲情 友情 爱情 事业 都一一陪伴我见证着
+                                                初二的那年开始喜欢艾薇儿 不可自拔的爱上她的一切 上初三的时候她已经在出第三张专辑了 这首歌就是出自他第三张专辑《The Best Damn Thing》我喜欢他前两张专辑所有歌曲的跋扈 迷茫 还有愤怒 觉得这些也是我心里要发泄出来的 然而到了第三张专辑 里面有不少歌曲都是甜美的也不失叛逆的摇滚 还有诸如《When you're gone》这种抒情曲 那时的vv也刚结婚不久 我能感受到他声音中的幸福和满足 而《Innocence》就是让我美惨了的那一首歌 怎么会有这么好听的一首歌呢 副歌的“I need you now”每次听到这我都一身鸡皮疙瘩...
+
+                                                上了高中 记得高二那年学校要搞联欢晚会 作为老师并不待见的“差生”，根本没有提出想出节目唱歌的机会，那时候班里已经有个女生被班主任安排进全校的节目单里 唱一首民族歌曲，当时我的浑身不自在 那个郁郁不得志啊！平时对学校以及老师各种充满了怨恨的我 居然就自己闯进了学校音乐组 向音乐老师自荐 我说我喜欢唱歌 并且唱的也不错 还会唱英文歌 老师我想上台 但是班里已经安排其他节目了 音乐老师一惊 估计也没见过我这么装逼的学生 然后就让我唱一首听听 随后我就唱了这首《innocence》......这首歌真是我用心良苦选出来的 一它旋律优美 没有反叛情绪 二是英文歌显得高大上 三是歌词写得也是美好的事物 没有老师眼中的“黄色情节” 唱完之后老师想都没想就答应了我 还去找班主任说了 当时的我心里是各种得意 呵呵 不让老娘上 老娘有的是办法，然后我就这样顺其自然的上了台 那次上台是我人生中第一次站在舞台上 没有紧张 只有享受 我的好朋友们 也是我一直相处到现在的几个闺蜜 在台下挥舞着荧光棒为我加油 她们也是实实在在的为我高兴，然而就在演出后的不久 班主任就找我的茬各种给我穿小鞋 当时年轻气盛的我一气之下没去上学 躲进闺蜜校外的宿舍哭了一整天 结果就是老师找不到我 爸妈也找不到我 怪自己不懂事 那时候爸妈把整个城市的网吧都找遍了 还去火车站堵人 我妈担心的不得了  我爸气的直接打电话给班主任 给班主任劈头盖脸一顿骂 说要是找不到孩子你也别想好过 就因为这个事情 我后来被学校开除了...其中的各种恶心事就不说了 被开除的那段日子我就天天呆在家里 也不知道愁 不用上学这大好事砸我头上我当时高兴的不得了 但爸妈为了这件事真是愁坏了 各种托关系没有用 回不去之前的学校 在这段时间我妈怕我上火 想让我不无聊 就下载了个ce让我自己录歌玩 那时候录歌就在5sing上找伴奏 录完了就在5sing上发 从前觉得自己最牛逼 玩了5sing之后才发现自己就是个渣渣 不认命的我在家各种练歌 在这期间 我认识了不少和我志同道合的朋友 Amy是我认识的第一个人 我们后来还合作录歌 当时觉得 能找到一个唱歌这么好的人合作 是太幸福的一件事了 也就这样 我混入了五婶的这个圈子......
+
+                                                后续我换了学校 这所学校不是什么重点学校 原先成绩排在学校中等的我到了这个学校突然间变成了优等生 老师对我非常不错 一再的鼓励我 也是在这个时候我认识了熊哥 现在的老公 我们刚刚在一起的时候他还陪我去我们当地的录音棚录歌 选的也是这首《Innocence》那段时光就像歌词里写的一样“I think about the little things that make life great，I wouldn't change a thing about it”我真正感觉到歌词里写到的幸福 是什么样子...歌曲制作好了以后 我妈就用这首歌做了手机铃声 而且一用就是好几年 一直到了现在...
+
+                                                8年过去了 当初学校的情侣都散了 曾经不看好我们的人也都闭嘴了 我身边的好闺蜜依然都在 我还在热爱着音乐 并以此为生 爸妈也依然一直支持着我 理解着我 我觉得我没什么不满足的了 唯有八年前的录音现在听着实在是难听的要命 所以在婚礼前我认真的重新录制了一遍 和声也都一一扒下来 也是时候给老妈更新下手机铃声了哈哈哈
+
+                                                其实这么多以往的经历 这么多细节我个人认为不适合在网上都说出来 但这么多年了 5sing作为一个音乐平台 在我心里就像一个写日记的地方 我发生了什么 就录下符合自己心情的歌 发在上面 写上文字 尤其是这样一首有意义的歌 我更加要记录下来 以后看看自己傻了吧唧的样子 也能乐呵乐呵
+
+                                                灵感字数又这么多 对不住大家 听歌吧哈哈
+
+                                                Mix：Shareyoung醉雪 </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">【飞丞】撒野（巫哲《撒野》同名曲）</a>
+                                        <a href="javascript:;" class="singer">xxx.Kaiser</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc15.jpg" alt="">
+                                            <p>流行</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">【飞丞】撒野（巫哲《撒野》同名曲）</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">xxx.Kaiser</a>
+                                            </p>
+                                            <p class="info">嘿嘿</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">水の证（水之证）</a>
+                                        <a href="javascript:;" class="singer">一抹无尘</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc16.jpg" alt="">
+                                            <p>流行</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">水の证（水之证）</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">一抹无尘</a>
+                                            </p>
+                                            <p class="info">
+
+                                                是从初中时起就心心念念的旋律，想念过去的时光。
+
+                                                感谢北北的耐心后期，卿瓷的题字。
+                                                还有我们繁烟宝贝既效率又美好的海报。
+                                                无尘尘版本的《水之证》终于诞生，爱你们么么哒。
+                                                感谢聆听，希望大家能够喜欢这首歌哦。
+
+                                                我见风起落，吹过千年长河。
+                                                哪怕山高水远，也终能千里相逢。
+
+                                                一抹无尘/2017.8.7</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">清平乐 词by清茗</a>
+                                        <a href="javascript:;" class="singer">彧姬yasha</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc17.jpg" alt="">
+                                            <p>流行</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">清平乐 词by清茗</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">彧姬yasha</a>
+                                            </p>
+                                            <p class="info"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">Salvatore</a>
+                                        <a href="javascript:;" class="singer">小时姑娘在口译</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc18.jpg" alt="">
+                                            <p>宗教</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">Salvatore</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">小时姑娘在口译</a>
+                                            </p>
+                                            <p class="info"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">漂洋过海来看你</a>
+                                        <a href="javascript:;" class="singer">张萌川</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc19.jpg" alt="">
+                                            <p>流行</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">漂洋过海来看你</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">张萌川</a>
+                                            </p>
+                                            <p class="info">视频地址：http://www.bilibili.com/video/av14144612/</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="normal">
+                                        <a href="javascript:;" class="s_name">梅雨明けの</a>
+                                        <a href="javascript:;" class="singer">まもる_</a>
+                                    </div>
+                                    <div class="hover">
+                                        <div class="hover_l">
+                                            <img src="imgs/yc20.jpg" alt="">
+                                            <p>流行</p>
+                                        </div>
+                                        <div class="hover_r">
+                                            <p>
+                                                <a href="javascript:;" class="s_name">梅雨明けの</a>
+                                                <a href="javascript:;" class="playBtn"></a>
+                                            </p>
+                                            <p>
+                                                <a href="javascript:;" class="singer">まもる_</a>
+                                            </p>
+                                            <p class="info">Hb to 33
+                                                mix：贼恩</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left_down_wrap">
+                    <div class="hd">
+                        <a href="#" class="tag cur">歌单</a>
+                        <span class="bar">|</span>
+                        <a href="#" class="tag">专辑</a>
+                        <a href="#" class="more"> >>更多</a>
+                    </div>
+                    <div class="bd">
+                        <div class="gd animator1 fadeIn">
+                            <div class="item">
+                                <a href="#" class="img"><img src="imgs/gd1.jpg"></a>
+                                <p class="bar bar_i"><i></i>3</p>
+                                <a href="#" class="cover"><i></i></a>
+                                <p class="title"><a href="#">嗨！余生请你多多指教</a></p>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="img"><img src="imgs/gd2.jpg"></a>
+                                <p class="bar bar_i"><i></i>5394</p>
+                                <a href="#" class="cover"><i></i></a>
+                                <p class="title"><a href="#">烟雨成诗</a></p>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="img"><img src="imgs/gd3.jpg"></a>
+                                <p class="bar bar_i"><i></i>2256</p>
+                                <a href="#" class="cover"><i></i></a>
+                                <p class="title"><a href="#">[日式]快节奏音符</a></p>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="img"><img src="imgs/gd4.jpg"></a>
+                                <p class="bar bar_i"><i></i>18767</p>
+                                <a href="#" class="cover"><i></i></a>
+                                <p class="title"><a href="#">不一样的毛不易</a></p>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="img"><img src="imgs/gd5.png"></a>
+                                <p class="bar bar_i"><i></i>7436</p>
+                                <a href="#" class="cover"><i></i></a>
+                                <p class="title"><a href="#">嗯~人家不要听！</a></p>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="img"><img src="imgs/gd6.jpg"></a>
+                                <p class="bar bar_i"><i></i>4871</p>
+                                <a href="#" class="cover"><i></i></a>
+                                <p class="title"><a href="#">慵懒迷醉的小资情调</a></p>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="img"><img src="imgs/gd7.jpg"></a>
+                                <p class="bar bar_i"><i></i>4640</p>
+                                <a href="#" class="cover"><i></i></a>
+                                <p class="title"><a href="#">这首歌，想要唱给你们听</a></p>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="img"><img src="imgs/gd8.jpg"></a>
+                                <p class="bar bar_i"><i></i>41902</p>
+                                <a href="#" class="cover"><i></i></a>
+                                <p class="title"><a href="#">听一场古韵之雪，诉一段难解之情</a></p>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="img"><img src="imgs/gd9.jpg"></a>
+                                <p class="bar bar_i"><i></i>9009</p>
+                                <a href="#" class="cover"><i></i></a>
+                                <p class="title"><a href="#">红染月日文歌选集</a></p>
+                            </div>
+                            <div class="item">
+                                <a href="#" class="img"><img src="imgs/gd10.jpg"></a>
+                                <p class="bar bar_i"><i></i>9873</p>
+                                <a href="#" class="cover"><i></i></a>
+                                <p class="title"><a href="#">安静中的小震撼</a></p>
+                            </div>
+                        </div>
+                        <div class="zj animator1"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="top_right_wrap clear">
+                <div class="banner">
+                    <div class="bannerImg">
+                        <ul>
+                            <li class="banner_list cur"><a href="#" class="img"><img src="imgs/13.jpg"  ></a></li>
+                            <li class="banner_list"><a href="#" class="img"><img src="imgs/14.jpg"></a></li>
+                            <li class="banner_list"><a href="#" class="img"><img src="imgs/15.jpg"></a></li>
+                        </ul>
+                    </div>
+                    <div class="bannerIndex">
+                        <span index="1" class="on"></span>
+                        <span index="2"></span>
+                        <span index="3"></span>
+                    </div>
+                </div>
+                <div class="news">
+                    <div class="hd">
+                       推荐资讯
+                       <div class="btn">
+                           <a href="#" class="pre"></a>
+                           <a href="#" class="next"></a>
+                       </div> 
+                    </div>
+                    <div class="bd">
+                       <ul class="animator cur">
+                           <li class="new1">
+                               <i></i>
+                               <a href="#">【活动】酷狗蘑菇动漫音乐嘉年华会员送票</a>
+                           </li>
+                           <li class="new1">
+                               <i></i>
+                               <a href="#">【推荐】封印之《同心锁》</a>
+                           </li>
+                           <li class="new1">
+                               <i></i>
+                               <a href="#">【独家】《全职高手》漫画叶修角色曲《醉沙场》</a>
+                           </li>
+                           <li class="new1">
+                               <i></i>
+                               <a href="#">【歌单】来听听不一样的毛不易吧！</a>
+                           </li>
+                           <li class="new1">
+                               <i></i>
+                               <a href="#">【歌单】听一场古韵之雪，诉一段难解之情。</a>
+                           </li>
+                       </ul>
+                    </div>
+                </div>
+                <div class="rank">
+                    <div class="hd">
+                        <a href="#" class="cur">原创排行榜</a>
+                        <a href="#">翻唱流行榜</a>
+                        <a href="#">支持榜</a>
+                    </div>
+                    <div class="bd">
+                        <div class="control">
+                            <a href="#" class="change">
+                                <i></i>下一批
+                            </a>
+                            <a href="#" class="allPlay">
+                                <i></i>全部播放
+                            </a>
+                        </div>
+                        <ul class="rank_bg clear">
+                            <li class="first">
+                                <a href="#" class="song">
+                                    <span>1</span>
+                                    【异世谣】皎然记
+                                </a>
+                                <a href="#" class="singer">司夏_西国海妖</a>
+                            </li>
+                            <li class="sec">
+                                <a href="#" class="song">
+                                    <span>2</span>
+                                    【原创】 缘聚心然（心然原创电台节目OP）
+                                </a>
+                                <a href="#" class="singer">月吟诗</a>
+                            </li>
+                            <li class="third">
+                                <a href="#" class="song">
+                                    <span>3</span>
+                                    【万人景仰】江湖梦
+                                </a>
+                                <a href="#" class="singer">五音Jw</a>
+                            </li>
+                            <li>
+                                <a href="#" class="song">
+                                    <span>4</span>
+                                    修罗战场——记《绣春刀》
+                                </a>
+                                <a href="#" class="singer">小司命</a>
+                            </li>
+                            <li>
+                                <a href="#" class="song">
+                                    <span>5</span>
+                                    长生诀（游戏《长生诀》主题曲）
+                                </a>
+                                <a href="#" class="singer">-以冬-</a>
+                            </li>
+                            <li>
+                                <a href="#" class="song">
+                                    <span>6</span>
+                                    With or Without Me（安能共我）——记《霍比特人》
+                                </a>
+                                <a href="#" class="singer">HITA</a>
+                            </li>
+                            <li>
+                                <a href="#" class="song">
+                                    <span>7</span>
+                                    四方有神
+                                </a>
+                                <a href="#" class="singer">泥鳅Niko</a>
+                            </li>
+                            <li>
+                                <a href="#" class="song">
+                                    <span>8</span>
+                                    【原创】木梳记
+                                </a>
+                                <a href="#" class="singer">只有影子</a>
+                            </li>
+                            <li>
+                                <a href="#" class="song">
+                                    <span>9</span>
+                                    青丘雪
+                                </a>
+                                <a href="#" class="singer">叶洛洛</a>
+                            </li>
+                            <li>
+                                <a href="#" class="song">
+                                    <span>10</span>
+                                    【小小感】
+                                </a>
+                                <a href="#" class="singer">西瓜JUN</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_live_wrap">
+            <div class="hd">
+                音乐现场
+                <a href="#" class="more"> >>更多</a>
+            </div>
+            <div class="bd">
+                <div class="item">
+                    <div class="itemp on">
+                        <span class="live"></span>
+                        <a href="#"><img src="imgs/live1.jpg"></a>
+                        <a href="#" class="hover"><i></i></a>
+                    </div>
+                    <div class="iteminfo">
+                        <p class="s_name"><a href="#" >5singLIVE直播</a></p>
+                        <p class="info">司夏-边界-2016酷狗蘑菇动漫音乐节现场</p>
+                        <p class="desc">20161008</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemp on">
+                        <span class="live"></span>
+                        <a href="#"><img src="imgs/live2.jpg"></a>
+                        <a href="#" class="hover"><i></i></a>
+                    </div>
+                    <div class="iteminfo">
+                        <p class="s_name"><a href="#" >孔德强</a></p>
+                        <p class="info">225个观众</p>
+                        <p class="desc">愿你迷路到我身旁。。。。。。</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemp on">
+                        <span class="live"></span>
+                        <a href="#"><img src="imgs/live3.jpg"></a>
+                        <a href="#" class="hover"><i></i></a>
+                    </div>
+                    <div class="iteminfo">
+                        <p class="s_name"><a href="#" >林晚饭</a></p>
+                        <p class="info">324个观众</p>
+                        <p class="desc">尝一口饭的香味儿</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemp on">
+                        <span class="live"></span>
+                        <a href="#"><img src="imgs/live4.jpg"></a>
+                        <a href="#" class="hover"><i></i></a>
+                    </div>
+                    <div class="iteminfo">
+                        <p class="s_name"><a href="#" >5singLIVE直播</a></p>
+                        <p class="info">5sing宣传片</p>
+                        <p class="desc">20160108</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_musician_wrap">
+            <div class="hd">
+                热门音乐人
+                <a href="#" class="more"> >>更多</a>
+            </div>
+            <div class="bd clear">
+                <div class="hot">
+                    <div class="ct">
+                        <a href="#" class="singer">付遮书</a>
+                        <a href="#" class="img"> <img src="imgs/yyr1.jpg"></a>
+                        <p class="cz">词作</p>
+                    </div>
+                </div>
+                <div class="hot_right">
+                    <div class="item">
+                        <p class="normal1">
+                            <a href="#" class="pic"><img src="imgs/yyr2.jpg" alt=""></a>
+                             <span class="s_name">britneylee</span>
+                        </p>
+                        <div class="hover">
+                            <div class="hover_t">
+                                <a href="#" class="pic"><img src="imgs/yyr2.jpg"></a>
+                                <p class="s_name"><a href="#">britneylee</a></p>
+                                <p class="info"></p>
+                                <p class="desc">微博【britneylee】 http://weibo.com/britneyl...</p>
+                            </div>
+                            <div class="hover_b">
+                                <p>热门歌曲</p>
+                                <ul class="clear">
+                                    <li>
+                                        <a href="javascript:;" class="s_name">Last Night of the Dynasty</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">仰望</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">Terrified （暖&无奈 cover）</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">【Luv (Neva Felt So Good) ft.牧野黑人】</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">Need you now----Britneylee&Morris</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="normal1">
+                            <a href="#" class="pic"><img src="imgs/yyr3.jpg" alt=""></a>
+                            <span class="s_name">山德鲁桑</span>
+                        </p>
+                        <div class="hover">
+                            <div class="hover_t">
+                                <a href="#" class="pic"><img src="imgs/yyr3.jpg"></a>
+                                <p class="s_name"><a href="#">山德鲁桑</a></p>
+                                <p class="info">歌手</p>
+                                <p class="desc">聊天群:494771119</p>
+                            </div>
+                            <div class="hover_b">
+                                <p>热门歌曲</p>
+                                <ul class="clear">
+                                    <li>
+                                        <a href="javascript:;" class="s_name">それがあなたの幸せとしても </a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">不会忘记你</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">【空之轨迹】空を见上げて</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>                                    <li>
+                                    <a href="javascript:;" class="s_name">Northern lights</a>
+                                    <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                    <a href="javascript:;" class="s_name">深海少女 feat.阿远</a>
+                                    <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="normal1">
+                            <a href="#" class="pic"><img src="imgs/yyr4.jpg" alt=""></a>
+                            <span class="s_name">渊渊渊渊渊哥儿</span>
+                        </p>
+                        <div class="hover">
+                            <div class="hover_t">
+                                <a href="#" class="pic"><img src="imgs/yyr4.jpg"></a>
+                                <p class="s_name"><a href="#">渊渊渊渊渊哥儿</a></p>
+                                <p class="info">歌手/曲作者/词作者</p>
+                                <p class="desc">新浪微博@SNH48-严佼君-</p>
+                            </div>
+                            <div class="hover_b">
+                                <p>热门歌曲</p>
+                                <ul class="clear">
+                                    <li>
+                                        <a href="javascript:;" class="s_name">追光者</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">画萤</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">积梦成渊</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                    <a href="javascript:;" class="s_name">终不得</a>
+                                    <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                    <a href="javascript:;" class="s_name">Need you 大鱼</a>
+                                    <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="normal1">
+                            <a href="#" class="pic"><img src="imgs/yyr5.jpg" alt=""></a>
+                            <span class="s_name">郑乐成</span>
+                        </p>
+                        <div class="hover">
+                            <div class="hover_t">
+                                <a href="#" class="pic"><img src="imgs/yyr5.jpg"></a>
+                                <p class="s_name"><a href="#">郑乐成</a></p>
+                                <p class="info">歌手/听众/唱片公司/工作室</p>
+                                <p class="desc">想当歌手的录音师，哈哈哈哈。新浪微博：http://weibo.com/u/38...</p>
+                            </div>
+                            <div class="hover_b">
+                                <p>热门歌曲</p>
+                                <ul class="clear">
+                                    <li>
+                                        <a href="javascript:;" class="s_name">天空之城</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">流着泪说分手</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">那些你很冒险的梦</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                    <a href="javascript:;" class="s_name">爱了</a>
+                                    <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                    <a href="javascript:;" class="s_name">和你</a>
+                                    <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="normal1">
+                            <a href="#" class="pic"><img src="imgs/yyr6.jpg" alt=""></a>
+                            <span class="s_name">五音Jw</span>
+                        </p>
+                        <div class="hover">
+                            <div class="hover_t">
+                                <a href="#" class="pic"><img src="imgs/yyr6.jpg"></a>
+                                <p class="s_name"><a href="#">五音Jw</a></p>
+                                <p class="info">歌手/制作人/编曲/后期</p>
+                                <p class="desc">2017年我的个人全新原创音乐专辑《万人景仰》即将开启预售众筹，最新资讯可关注我...</p>
+                            </div>
+                            <div class="hover_b">
+                                <p>热门歌曲</p>
+                                <ul class="clear">
+                                    <li>
+                                        <a href="javascript:;" class="s_name">天空之城【聆音】明月天涯</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">【聆音】盗墓笔记-步戏</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">【聆音】忆江南</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">泡沫</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">十年一梦-橙光游戏《十年清风》主题曲</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="normal1">
+                            <a href="#" class="pic"><img src="imgs/yyr7.jpg" alt=""></a>
+                            <span class="s_name">eddy盖奶</span>
+                        </p>
+                        <div class="hover">
+                            <div class="hover_t">
+                                <a href="#" class="pic"><img src="imgs/yyr7.jpg"></a>
+                                <p class="s_name"><a href="#">eddy盖奶</a></p>
+                                <p class="info">歌手</p>
+                                <p class="desc">少女盖 b站/唱吧/网易云id： eddy盖奶</p>
+                            </div>
+                            <div class="hover_b">
+                                <p>热门歌曲</p>
+                                <ul class="clear">
+                                    <li>
+                                        <a href="javascript:;" class="s_name">極楽浄土</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">【盖奶x贼恩】Gravitywall【Re:CREATORS OP1】</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">我的一个道姑朋友</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">拔剑神曲 bios</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">No Title</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="normal1">
+                            <a href="#" class="pic"><img src="imgs/yyr8.jpg" alt=""></a>
+                            <span class="s_name">殇小谨。</span>
+                        </p>
+                        <div class="hover">
+                            <div class="hover_t">
+                                <a href="#" class="pic"><img src="imgs/yyr8.jpg"></a>
+                                <p class="s_name"><a href="#">殇小谨。</a></p>
+                                <p class="info">曲作者/词作者/后期</p>
+                                <p class="desc">混音师，也是Boom音乐课堂的老师~除了接单还带学生哦~有需要请联系qq5537...</p>
+                            </div>
+                            <div class="hover_b">
+                                <p>热门歌曲</p>
+                                <ul class="clear">
+                                    <li>
+                                        <a href="javascript:;" class="s_name">蝶影</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">半夏青春</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">非酋 - 薛明媛/朱贺</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">殇</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">【风格一，小清新】混音作品《雨过之后的太阳》</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="normal1">
+                            <a href="#" class="pic"><img src="imgs/yyr9.jpg" alt=""></a>
+                            <span class="s_name">周渔</span>
+                        </p>
+                        <div class="hover">
+                            <div class="hover_t">
+                                <a href="#" class="pic"><img src="imgs/yyr9.jpg"></a>
+                                <p class="s_name"><a href="#">周渔</a></p>
+                                <p class="info">曲作者/歌手/词作者</p>
+                                <p class="desc">我不是电影里那个在火车上穿梭的周渔
+                                    而是痴迷于声音乐器里爱唱歌的周渔
+                                    我...</p>
+                            </div>
+                            <div class="hover_b">
+                                <p>热门歌曲</p>
+                                <ul class="clear">
+                                    <li>
+                                        <a href="javascript:;" class="s_name">周渔《一个人的约会》</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">《新感觉》</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">周迅《伴侣》</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">周渔《没有你了我怎么办》</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">周渔《亲爱的》</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="normal1">
+                            <a href="#" class="pic"><img src="imgs/yyr10.jpg" alt=""></a>
+                            <span class="s_name">AGGreen</span>
+                        </p>
+                        <div class="hover">
+                            <div class="hover_t">
+                                <a href="#" class="pic"><img src="imgs/yyr10.jpg"></a>
+                                <p class="s_name"><a href="#">AGGreen</a></p>
+                                <p class="info"></p>
+                                <p class="desc">5sing基本不太來看 找我的話敲微博或者bilibili！頭像是染染畫的，空間...</p>
+                            </div>
+                            <div class="hover_b">
+                                <p>热门歌曲</p>
+                                <ul class="clear">
+                                    <li>
+                                        <a href="javascript:;" class="s_name">梅雨明けの</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">アサガオの散る頃に</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">天ノ弱</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">壊れたピエロ</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">天樂</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="normal1">
+                            <a href="#" class="pic"><img src="imgs/yyr11.jpg" alt=""></a>
+                            <span class="s_name">陆菱纱</span>
+                        </p>
+                        <div class="hover">
+                            <div class="hover_t">
+                                <a href="#" class="pic"><img src="imgs/yyr11.jpg"></a>
+                                <p class="s_name"><a href="#">陆菱纱</a></p>
+                                <p class="info">词作者</p>
+                                <p class="desc">只想记录我走过看过的那一种人生。【聊天退休的群：186961099】</p>
+                            </div>
+                            <div class="hover_b">
+                                <p>热门歌曲</p>
+                                <ul class="clear">
+                                    <li>
+                                        <a href="javascript:;" class="s_name">眉间雪·纯歌版（唱：晴愔）</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">我的一个道姑朋友（演唱：Lon）</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">恰雪来故（唱：晴愔）</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">肩上蝶（唱：草泽）</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="s_name">此生与你，不过相逢（唱：上古）</a>
+                                        <a href="javascript:;" class="playBtn"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bom_wrap">
+        <div class="bom clear">
+            <div class="bom_left"><a href="#" class="logo1"></a>
+              <p class="hz">合作伙伴</p>
+              <div>
+                  <a href="#" class="logo2 logo"></a>
+                  <a href="#" class="logo3 logo"></a>
+                  <a href="#" class="logo4 logo"></a>
+                  <a href="#" class="logo5 logo"></a>
+              </div>
+            </div>
+            <div class="bom_mid">
+                <p class="hz">实用话题</p>
+                <ul>
+                    <li><a href="#">1、【推荐】2017CICF EXPO与你国庆相...</a></li>
+                    <li><a href="#">2、网站违规广告细则说明</a></li>
+                    <li><a href="#">3、申请网站歌单推荐</a></li>
+                    <li><a href="#">4、5sing客户端下载</a></li>
+                    <li><a href="#">5、5sing用户服务协议</a></li>
+                </ul>
+            </div>
+            <div class="bom_right">
+                <p class="hz">5sing 手机端</p>
+                <ul>
+                    <li><a href="#">5sing安卓端下载</a></li>
+                    <li><a href="#">5singIOS端下载</a></li>
+                </ul>
+                <ul>
+                    <li class="gz"><a href="#" class="wb"><i></i><span>加关注</span></a></li>
+                    <li class="gz"><a href="#" class="wx"><i></i><span>加微信</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer_wrap">
+        <div class="foot clear">
+            <ul class="foot_top">
+                <li><a href="#">5sing用户服务协议</a></li>
+                <li><a href="#">版权指引</a></li>
+                <li><a href="#">授权协议</a></li>
+                <li><a href="#">隐私政策</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">商务合作</a></li>
+                <li><a href="#">诚聘英才</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">帮助中心</a></li>
+            </ul>
+            <ul class="foot_mid">
+                <li><a href="#">粤ICP备09017694号-2</a></li>
+                <li>信息网络传播视听节目许可证：1910564号</li>
+                <li>增值电信业务经营许可证：粤B2-20060339号</li>
+                <li>营业性演出许可证：穗天演440106120029</li>
+                <li><a href="#"><img src="imgs/wen_icon.png"></a></li>
+            </ul>
+            <ul class="foot_bot">
+                <li>Copyright © 2004-2017 KuGou.All Rights Reserved</li>
+                <li>违法和不良信息举报：www.12377.cn 举报电话：12377</li>
+                <li>粤公网安备 44010602000141号</li>
+                <li><a href="#">12318 全国文化市场举报网站</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

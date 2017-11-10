@@ -1,0 +1,156 @@
+.bom_wrap{
+    width:100%;
+    height: 150px;
+    background-color: #EFEFEF;
+}
+.bom_wrap .bom{
+    width: 1000px;
+    margin:auto;
+}
+.bom_wrap .bom_left{
+     width:400px;
+     height: 130px;
+     float: left;
+     margin-top: 20px;
+     position: relative;
+ }
+.bom_wrap .bom_left .logo1{
+    display:inline-block;
+    width: 70px;
+    height: 30px;
+    background: url("../imgs/bom_logo.png") -360px 0 no-repeat;
+}
+.bom_wrap .bom_left .hz{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top:-5px;
+}
+.bom_wrap .bom_left .logo1:hover{
+    display:inline-block;
+    width: 70px;
+    height: 30px;
+    background: url("../imgs/bom_logo.png") -360px -41px no-repeat;
+}
+.bom_wrap .bom_left .logo{
+    display:inline-block;
+    width:90px;
+    height: 20px;
+    margin-right: 5px;
+}
+.bom_wrap .bom_left .logo2{
+    background: url("../imgs/bom_logo.png") 0 0 no-repeat;
+}
+.bom_wrap .bom_left .logo3{
+    background: url("../imgs/bom_logo.png") -90px 0 no-repeat;
+}
+.bom_wrap .bom_left .logo4{
+    background: url("../imgs/bom_logo.png") -180px 0 no-repeat;
+}
+.bom_wrap .bom_left .logo5{
+    background: url("../imgs/bom_logo.png") -270px 0 no-repeat;
+}
+.bom_wrap .bom_left .logo2:hover{
+    background: url("../imgs/bom_logo.png") 0 -40px no-repeat;
+}
+.bom_wrap .bom_left .logo3:hover{
+    background: url("../imgs/bom_logo.png") -90px -40px no-repeat;
+}
+.bom_wrap .bom_left .logo4:hover{
+    background: url("../imgs/bom_logo.png") -180px -40px no-repeat;
+}
+.bom_wrap .bom_left .logo5:hover{
+    background: url("../imgs/bom_logo.png") -270px -40px no-repeat;
+}
+.bom_wrap .bom_mid{
+    width:350px;
+    height: 130px;
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 15px;
+}
+.bom_wrap .bom_mid ul{
+    margin-top: 20px;
+}
+.bom_wrap .bom_mid li{
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-right: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+.bom_wrap .bom_mid li a{
+    color:#999;
+}
+.bom_wrap .bom_mid li a:hover{
+    color: #1bcde4;
+}
+.bom_wrap .bom_right{
+    width:200px;
+    height: 130px;
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    margin-left:10px ;
+}
+.bom_wrap .bom_right ul{
+    margin-top: 20px;
+    display:inline-block;
+}
+.bom_wrap .bom_right li{
+    width:100px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.bom_wrap .bom_right li a{
+    color:#999;
+}
+.bom_wrap .bom_right li a:hover{
+    color: #1bcde4;
+}
+.bom_wrap .bom_right .gz{
+    width:80px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-top: 5px;
+    border: 1px solid #9e9e9e;
+    position: relative;
+}
+.bom_wrap .bom_right .gz .wb i{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../imgs/foot_sprite.png") 0px -3px no-repeat;
+}
+.bom_wrap .bom_right .gz .wb:hover i{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../imgs/foot_sprite.png") 0px -27px no-repeat;
+}
+.bom_wrap .bom_right .gz .wx i{
+    display:inline-block;
+    width: 23px;
+    height: 20px;
+    background: url("../imgs/foot_sprite.png") 0px -50px no-repeat;
+}
+.bom_wrap .bom_right .gz .wx:hover i{
+    display:inline-block;
+    width: 23px;
+    height: 20px;
+    background: url("../imgs/foot_sprite.png") 0px -75px no-repeat;
+}
+.bom_wrap .bom_right .gz span{
+    position: absolute;
+    left:30px;
+}

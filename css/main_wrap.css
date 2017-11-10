@@ -1,0 +1,837 @@
+.main_wrap{
+    width:960px;
+    margin:0 auto;
+    padding: 0 20px 10px 20px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+    position: relative;
+}
+.main_top_wrap{
+    padding-top: 25px;
+    height: 980px;
+}
+.top_left_wrap{
+    float: left;
+    width: 660px;
+}
+.top_left_wrap .hd{
+    top: 10px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 18px;
+    border-bottom: 2px solid #29dd8f;
+    position: relative;
+    /*z-index: 3;*/
+}
+
+.top_left_wrap .hd .content{
+    /*position: absolute;*/
+    display:inline-block;
+    width: 500px;
+    margin-left: 30px;
+    /*margin-top: 50px;*/
+}
+.content a, .content span{
+    color: #555555;
+    font-size: 14px;
+    margin-left: 2px;
+    display: inline-block;
+}
+.content a:hover, .more:hover{
+    color: #53cfff;
+}
+.more{
+    /*position: absolute;*/
+    font-size: 12px;
+    display: inline-block;
+    float: right;
+    color: #555555;
+}
+.content .curr{
+    font-weight: 600;
+    color: #555555;
+}
+.content .curr:hover{
+    color: #555555;
+}
+.xia{
+    position: absolute;
+    left: 50%;
+    width: 21px;
+    height: 10px;
+    background: url("../imgs/rec_sprite_v1.png") -75px -20px no-repeat;
+    bottom: -10px;
+    margin-left: -10px;
+    /*top: 63px;*/
+}
+.bd{
+    top:10px;
+    position: relative;
+}
+.rec_yc{
+    width: 290px;
+    height: 500px;
+    float: left;
+    padding:0 10px;
+}
+
+.rec_fc{
+    width: 290px;
+    height: 500px;
+    float:right;
+    padding:0 10px;
+}
+.control{
+    display: inline-block;
+    float:right;
+}
+.change, .allPlay{
+    float: right;
+    color:#333;
+    font-size: 13px;
+}
+.change:hover, .allPlay:hover{
+    color: #53cfff;
+}
+.rec_yc div.bar{
+    display: inline-block;
+    width: 2px;
+    height: 450px;
+    position: absolute;
+    left: 330px;
+    top:25px;
+    background-color: #e8e8e8;
+    z-index: 10;
+}
+.title{
+    margin-top: 10px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    font-size: 16px;
+    color:#333;
+}
+.bd .title i{
+    background-image: url("../imgs/rec_sprite_v1.png");
+    background-repeat: no-repeat;
+}
+.rec_yc .title i{
+    width:18px;
+    height: 18px;
+    float: left;
+    background-position: -19px 0;
+    margin: 10px 5px 0  0;
+}
+.rec_yc .title .change i{
+    background-position: -53px 0;
+    margin: 15px 5px;
+}
+.rec_yc .title .allPlay i{
+    width:17px;
+    height:17px;
+    background-position: -40px 0;
+    margin: 15px 5px;
+}
+.rec_fc .title i{
+    width:18px;
+    height: 18px;
+    float: left;
+    background-position: 0 0;
+    margin: 10px 5px 0  0;
+}
+.rec_fc .title .change i{
+    background-position: -53px 0;
+    margin: 15px 5px;
+}
+.rec_fc .title .allPlay i{
+    width:17px;
+    height:17px;
+    background-position: -40px 0;
+    margin: 15px 5px;
+}
+.normal{
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+}
+.normal .s_name{
+    width: 190px;
+    float: left;
+    font-size: 13px;
+    color:#333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.normal .singer{
+    font-size: 13px;
+    float: right;
+    width: 70px;
+    overflow: hidden;
+    /*margin-right: 10px;*/
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.hover{
+    overflow: hidden;
+    display: none;
+}
+.hover_l{
+    width: 90px;
+    height: 110px;
+    float: left;
+    background: url("../imgs/rec_sprite_v1.png") 1px -34px no-repeat;
+    padding: 1px 2px;
+    /*margin-right: 8px;*/
+}
+.hover_l img{
+    width: 86px;
+    height: 85px;
+}
+
+.hover_l p{
+    bottom: 5px;
+    width: 86px;
+    height: 20px;
+    line-height: 17px;
+    text-align: center;
+}
+.hover_r{
+    width: 190px;
+    height: 110px;
+    float: left;
+    margin-left: 5px;
+}
+
+.hover_r p{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    margin-top: 4px;
+}
+.hover_r .s_name{
+    width: 160px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    font-size: 13px;
+    color: #333333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.hover_r .playBtn{
+    width: 20px;
+    height: 17px;
+    display: inline-block;
+    float: right;
+    overflow: hidden;
+    background: url("../imgs/rec_sprite_v1.png") -73px 1px no-repeat;
+}
+.hover_r .singer{
+    width:100%;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    font-size: 12px;
+    color: #d4d4d4;
+    letter-spacing: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /*margin-top: 10px;*/
+}
+.hover_r p.info{
+    height: 56px;
+    overflow: hidden;
+    /*line-height: 55px;*/
+    font-size: 12px;
+    color: #d4d4d4;
+}
+.on .hover{
+    display: block;
+}
+.on .normal{
+    display: none;
+}
+.left_down_wrap .hd{
+    margin-top: 10px;
+}
+.left_down_wrap .tag{
+    color: #9e9e9e;
+    font-size:12px;
+}
+.left_down_wrap .cur{
+    color: #151515;
+    font-size: 18px;
+}
+.left_down_wrap .bar{
+    font-size: 13px;
+    margin:0 5px;
+    color: #9e9e9e;
+}
+.left_down_wrap .gd{
+    margin-left: 10px;
+}
+.left_down_wrap .item{
+    width: 110px;
+    height: 140px;
+    float: left;
+    position: relative;
+    margin:10px 0;
+    background: url("../imgs/gd_sprite.png") -128px 2px no-repeat;
+    padding-right: 20px;
+}
+.left_down_wrap .img{
+    display: inline-block;
+    width:110px;
+    height: 110px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.left_down_wrap .img img{
+    width: 100%;
+    height: 100%;
+}
+.left_down_wrap .item .bar{
+    width: 110px;
+    height: 26px;
+    line-height: 26px;
+    color: #ffffff;
+    position: absolute;
+    top: 84px;
+    left: -5px;
+    background: rgba(120, 120, 120, 0.8);
+    border-radius: 0 0 10px 10px;
+}
+.left_down_wrap .bar i{
+    width: 15px;
+    height: 12px;
+    float: left;
+    margin: 5px 10px;
+    background: url("../imgs/rec_sprite_v1.png") -96px 0 no-repeat;
+}
+.left_down_wrap .cover{
+    width: 110px;
+    height: 110px;
+    top:0;
+    left:0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: none;
+}
+.left_down_wrap .cover i{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin:25px 25px;
+    background: url("../imgs/gd_sprite.png") -269px 0 no-repeat;
+}
+.left_down_wrap .title{
+    height:26px;
+    line-height:26px;
+    width: 90px;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: -5px;
+    margin-left: 8px;
+}
+.left_down_wrap .title a{
+    font-size: 12px;
+    color: #666;
+}
+
+.left_down_wrap .title a:hover{
+    color: #53cfff;
+}
+.left_down_wrap .item:hover .cover{
+    display: block;
+}
+.left_down_wrap .item:hover .bar_i{
+    display: none;
+}
+.top_right_wrap{
+    width: 280px;
+    height: 500px;
+    float: right;
+    padding: 0 10px;
+}
+.top_right_wrap .banner{
+    width: 240px;
+    float: right;
+    position: relative;
+    height:260px;
+}
+.top_right_wrap .bannerImg{
+    width: 240px;
+    position: absolute;
+    height: 240px;
+    overflow: hidden;
+    float: right;
+}
+.top_right_wrap .bannerImg .img img{
+    width: 240px;
+    height: 240px;
+    opacity: 0;
+}
+.top_right_wrap .bannerImg .cur img{
+    opacity: 1;
+}
+.top_right_wrap .bannerIndex{
+    position: absolute;
+    width:70px;
+    height:20px;
+    left:70%;
+    top: 220px;
+    z-index: 999;
+}
+.top_right_wrap .bannerIndex span{
+    display: inline-block;
+    width: 8px;
+    height:8px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-right: 10px;
+    float: left;
+}
+.top_right_wrap .bannerIndex .on{
+    background-color:  #6cff0d;
+}
+.news{
+    width: 240px;
+    height: 200px;
+    float: right;
+
+}
+.news .hd{
+    width: 240px;
+    height: 20px;
+    overflow: hidden;
+    float: right;
+    top:5px;
+    font-size: 15px;
+}
+.news .hd .btn{
+    width: 50px;
+    height:20px;
+    float: right;
+}
+.news .hd .btn a{
+    display: inline-block;
+    width: 16px;
+    height:13px;
+    background-repeat: no-repeat;
+    background-image: url("../imgs/rec_sprite_v1.png");
+}
+.news .hd .btn .pre{
+    background-position: 0 -20px;
+    margin-right: 5px;
+}
+.news .hd .btn .next{
+    background-position: -32px -20px;
+}
+.news .bd{
+    width: 240px;
+    height: 160px;
+    overflow: hidden;
+    float: right;
+    top:5px;
+    font-size: 12px;
+}
+.news .bd ul{
+    width: 100%;
+    height:100%;
+}
+.news .bd .new1{
+    position: relative;
+    width: 240px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.news .bd i{
+    display: inline-block;
+    position: absolute;
+    top: 14px;
+    width: 6px;
+    height: 6px;
+    background: url("../imgs/rec_sprite_v1.png") -96px -20px no-repeat;
+}
+.news .bd a{
+    color:#333;
+    /*display: inline-block; 文本溢出不能用块级*/
+    margin-left: 5px;
+}
+.news .bd a:hover{
+    color:#53cfff;
+    text-decoration: underline;
+}
+.rank{
+    /*margin-top: 10px;*/
+    width: 240px;
+    height: 490px;
+    float: right;
+    margin-top: -10px;
+}
+.rank .hd{
+    width: 240px;
+    height: 30px;
+    font-size: 12px;
+    /*font-weight: bold;*/
+    border-bottom:3px solid #9e9e9e;
+    line-height: 30px;
+    /*padding-left: 8px;*/
+}
+.rank .hd a{
+    display: inline-block;
+    color: #333;
+    width: 78px;
+    text-align: center;
+}
+.rank .hd .cur{
+    border-bottom: 3px solid #29dd8f;
+    font-weight: bold;
+}
+
+.bd .change i{
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    line-height: 17px;
+    margin: -7px 5px;
+    background: url("../imgs/rec_sprite_v1.png") -53px 0 no-repeat;
+}
+.bd .allPlay i{
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    line-height: 17px;
+    margin: -7px 5px;
+    background: url("../imgs/rec_sprite_v1.png") -40px 0 no-repeat;
+}
+.rank_bg{
+    width: 246px;
+    height: 415px;
+    background-image: url("../imgs/rank_bg.png");
+    position: absolute;
+    top: 30px;
+}
+.rank_bg li{
+    width:240px;
+    height: 41px;
+    line-height: 41px;
+
+}
+.rank_bg .song span{
+    text-align: center;
+    font-size: 18px;
+    float: left;
+    width: 30px;
+    padding-left: 5px;
+}
+.rank_bg .first span{
+    color: #ff342f;
+}
+.rank_bg .sec span{
+    color: #ff8020;
+}
+.rank_bg .third span{
+    color: #ffb675;
+}
+.rank_bg .song{
+    color:#555555;
+    font-size: 12px;
+    width: 150px;
+    float: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.rank_bg .singer{
+    color: #9e9e9e;
+    font-size: 12px;
+    float: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 5px;
+}
+.rank_bg .song:hover, .rank_bg .singer:hover{
+    color: #37BA56;
+}
+
+.main_live_wrap{
+    height: 300px;
+}
+.main_live_wrap .hd,.main_musician_wrap .hd{
+    font-size: 18px;
+    border-bottom: 2px solid #37BA56;
+    height: 35px;
+    line-height:35px;
+}
+.main_live_wrap .bd{
+    height: 220px;
+    line-height: 220px;
+}
+.main_live_wrap .item{
+    width: 200px;
+    height: 220px;
+    margin:0 20px;
+    /*position: relative;*/
+    float: left;
+}
+.main_live_wrap .item .itemp{
+    width: 200px;
+    height: 133px;
+    background: url("../imgs/live_sprite_v1.png") 0 0 no-repeat;
+    position: relative;
+    float: left;
+}
+.main_live_wrap .item .itemp img{
+    width:100%;
+    border-radius: 8px;
+}
+.main_live_wrap .item .itemp .live{
+    width: 40px;
+    height: 20px;
+    background-image: url("../imgs/live-hot-1.gif");
+    position: absolute;
+    right:0;
+    z-index:3;
+    top: 10px;
+}
+/*兼容问题，火狐ok chrome加个，margin-top属性*/
+.main_live_wrap .item .itemp .hover{
+    display: none;
+    width: 200px;
+    height: 133px;
+    position: absolute;
+    float: left;
+    margin-top: -236px;
+    left:0;
+    background: url("../imgs/live_sprite_v1.png") -200px 0 no-repeat;
+}
+.main_live_wrap .item .on:hover .hover{
+    display: inline-block;
+}
+.main_live_wrap .item .itemp i{
+    display: block;
+    margin:30px 60px;
+    width: 74px;
+    height: 74px;
+    background:url("../imgs/live_sprite_v1.png") -15px -134px no-repeat;
+}
+
+.main_live_wrap .item .iteminfo{
+    width:180px;
+    height: 70px;
+    line-height: 70px;
+    padding: 5px 10px;
+    position: absolute;
+    float: left;
+    background-color: #ffffff;
+    top: 133px;
+    background:url("../imgs/live_sprite_v1.png") -200px -134px no-repeat;
+    /*overflow: hidden;*/
+}
+.main_live_wrap .iteminfo p{
+    width:180px;
+    height: 20px;
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:#9e9e9e;
+}
+.main_live_wrap .iteminfo .s_name a{
+    font-size: 13px;
+    color:#333333;
+}
+.main_live_wrap .iteminfo .s_name a:hover{
+    text-decoration: underline;
+    color: #4ea3ff;
+}
+.main_musician_wrap{
+    height: 440px;
+}
+.main_musician_wrap .bd{
+    padding: 10px 0;
+}
+.main_musician_wrap .bd .hot{
+    width: 250px;
+    height: 330px;
+    background: url("../imgs/msc_sprite.png") -265px 0 no-repeat;
+    position: relative;
+    float: left;
+}
+.main_musician_wrap .bd .hot .ct{
+    width:190px;
+    height: 270px;
+    position: absolute;
+    float: left;
+    margin: 30px 20px 20px 30px;
+}
+.main_musician_wrap .hot .ct .singer{
+    display: inline-block;
+    position: absolute;
+    width:100%;
+    height: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    color:#333333;
+    text-align: center;
+}
+.main_musician_wrap .hot .ct .singer:hover{
+    color: #4ea3ff;
+}
+.main_musician_wrap .hot .ct .img{
+    position: absolute;
+    display: inline-block;
+    float: left;
+    top: 25px;
+}
+.main_musician_wrap .hot .ct .cz{
+    width:100%;
+    height: 20px;
+    position: absolute;
+    line-height: 20px;
+    font-size: 13px;
+    color:#9e9e9e;
+    top: 225px;
+}
+.main_musician_wrap .bd .hot_right{
+    height: 330px;
+    /*position: relative;*/
+    width: 700px;
+    float: left;
+    margin-top: 10px;
+}
+.main_musician_wrap .bd .hot_right .item{
+     width: 120px;
+     height:145px;
+     position: relative;
+     float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+ }
+.main_musician_wrap .bd .hot_right .normal1{
+    width: 100%;
+    height:100%;
+    border: 1px solid #bababa;
+}
+.main_musician_wrap .bd .hot_right .s_name{
+    display: inline-block;
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
+    color: #6a6a6a;
+    font-size: 13px;
+    text-align: center;
+}
+.main_musician_wrap .bd .hot_right .item:hover .hover{
+    display: inline-block;
+}
+.main_musician_wrap .bd .hot_right .item:hover .normal1{
+    display: none;
+}
+
+.main_musician_wrap .bd .hot_right .hover{
+    position: absolute;
+    float: left;
+    /*display: inline-block;*/
+    width: 263px;
+    height:311px;
+    top: -1px;
+    background: url("../imgs/msc_sprite.png") 0 0 no-repeat;
+    z-index:10;
+}
+.main_musician_wrap .hot_right .hover_t{
+    width:100%;
+    height: 120px;
+}
+.main_musician_wrap .hover_t .pic{
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+.main_musician_wrap .bd .hot_right .hover_t .s_name{
+    width: 130px;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.main_musician_wrap .hover_t .s_name a{
+    font-size: 13px;
+    color:#fff;
+}
+.main_musician_wrap .hover_t .s_name a:hover{
+    text-decoration: underline;
+}
+.main_musician_wrap .bd .hot_right .hover_t .info{
+    height: 20px;
+    width: 130px;
+    overflow: hidden;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color:#fff;
+}
+.main_musician_wrap .bd .hot_right .hover_t .desc{
+    width: 130px;
+    height: 53px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 12px;
+    color:#fff;
+    overflow: hidden;
+}
+.main_musician_wrap .hot_right .hover_b{
+    width:100%;
+    height: 190px;
+}
+.main_musician_wrap .hot_right .hover_b p{
+    width:100%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.main_musician_wrap .hot_right .hover_b .s_name{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    width:180px;
+    float: left;
+    font-size: 12px;
+    color:#fff;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.main_musician_wrap .hot_right .hover_b .s_name:hover{
+    text-decoration: underline;
+}
+.main_musician_wrap .hot_right .hover_b .playBtn{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 4px 20px;
+    background: url("../imgs/rec_sprite_v1.png") -94px 2px no-repeat;
+}
